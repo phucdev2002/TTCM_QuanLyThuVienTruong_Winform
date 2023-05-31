@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.fLogin.resources
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.fRegister.resources
