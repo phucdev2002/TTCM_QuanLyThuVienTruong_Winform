@@ -45,6 +45,21 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.tbcQuanLiSach = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.txtCTSoLuongTL = new System.Windows.Forms.TextBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.txtCTMaTaiLieu = new System.Windows.Forms.TextBox();
+            this.txtCTTenTaiLieu = new System.Windows.Forms.TextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.txtSearchTaiLieu = new System.Windows.Forms.TextBox();
+            this.btnYeuCauTL = new System.Windows.Forms.Button();
+            this.btnChinhSuaTL = new System.Windows.Forms.Button();
+            this.btnHuyTL = new System.Windows.Forms.Button();
+            this.btnLuuTL = new System.Windows.Forms.Button();
+            this.btnLapPhieuMuonTL = new System.Windows.Forms.Button();
+            this.btnXoaTL = new System.Windows.Forms.Button();
+            this.btnXemChiTietTL = new System.Windows.Forms.Button();
             this.cbbCTLoaiTL = new System.Windows.Forms.ComboBox();
             this.cbxCTTLDB = new System.Windows.Forms.CheckBox();
             this.lbCTSoLuongTL = new System.Windows.Forms.Label();
@@ -62,22 +77,28 @@
             this.rdTimTLCoBan = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.txtSoLuongTL = new System.Windows.Forms.TextBox();
+            this.txtTenTL = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtLoaiTL = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtMaTL = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.btnYeuCauTL = new System.Windows.Forms.Button();
-            this.btnChinhSuaTL = new System.Windows.Forms.Button();
-            this.btnHuyTL = new System.Windows.Forms.Button();
-            this.btnLuuTL = new System.Windows.Forms.Button();
-            this.btnLapPhieuMuonTL = new System.Windows.Forms.Button();
-            this.btnXoaTL = new System.Windows.Forms.Button();
-            this.btnXemChiTietTL = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.txtSearchTaiLieu = new System.Windows.Forms.TextBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.txtCTTenTaiLieu = new System.Windows.Forms.TextBox();
-            this.txtCTMaTaiLieu = new System.Windows.Forms.TextBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.txtCTSoLuongTL = new System.Windows.Forms.TextBox();
+            this.ckbTLDB = new System.Windows.Forms.CheckBox();
+            this.btnThemTaiLieu = new System.Windows.Forms.Button();
+            this.dgvYeuCauTaiLieu = new System.Windows.Forms.DataGridView();
+            this.lbTenTaiLieuYeuCauMoi = new System.Windows.Forms.Label();
+            this.btnYeuCauTaiLieuMoi = new System.Windows.Forms.Button();
+            this.btnXoaYeuCauTaiLieuMoi = new System.Windows.Forms.Button();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.txtYeuCauTaiLieuMoi = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -86,6 +107,10 @@
             this.tbcQuanLiSach.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSearchTaiLieu)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvYeuCauTaiLieu)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -317,6 +342,191 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Tìm Kiếm Tài Liệu";
             // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Black;
+            this.panel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel6.Location = new System.Drawing.Point(640, 244);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(235, 1);
+            this.panel6.TabIndex = 109;
+            // 
+            // txtCTSoLuongTL
+            // 
+            this.txtCTSoLuongTL.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtCTSoLuongTL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCTSoLuongTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCTSoLuongTL.ForeColor = System.Drawing.Color.Black;
+            this.txtCTSoLuongTL.Location = new System.Drawing.Point(640, 220);
+            this.txtCTSoLuongTL.Name = "txtCTSoLuongTL";
+            this.txtCTSoLuongTL.Size = new System.Drawing.Size(235, 20);
+            this.txtCTSoLuongTL.TabIndex = 108;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Black;
+            this.panel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel4.Location = new System.Drawing.Point(169, 190);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(284, 1);
+            this.panel4.TabIndex = 107;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Black;
+            this.panel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel3.Location = new System.Drawing.Point(169, 243);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(284, 1);
+            this.panel3.TabIndex = 107;
+            // 
+            // txtCTMaTaiLieu
+            // 
+            this.txtCTMaTaiLieu.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtCTMaTaiLieu.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCTMaTaiLieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCTMaTaiLieu.ForeColor = System.Drawing.Color.Black;
+            this.txtCTMaTaiLieu.Location = new System.Drawing.Point(169, 166);
+            this.txtCTMaTaiLieu.Name = "txtCTMaTaiLieu";
+            this.txtCTMaTaiLieu.Size = new System.Drawing.Size(284, 20);
+            this.txtCTMaTaiLieu.TabIndex = 106;
+            // 
+            // txtCTTenTaiLieu
+            // 
+            this.txtCTTenTaiLieu.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtCTTenTaiLieu.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCTTenTaiLieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCTTenTaiLieu.ForeColor = System.Drawing.Color.Black;
+            this.txtCTTenTaiLieu.Location = new System.Drawing.Point(169, 219);
+            this.txtCTTenTaiLieu.Name = "txtCTTenTaiLieu";
+            this.txtCTTenTaiLieu.Size = new System.Drawing.Size(284, 20);
+            this.txtCTTenTaiLieu.TabIndex = 106;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Black;
+            this.panel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel5.Location = new System.Drawing.Point(436, 43);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(205, 1);
+            this.panel5.TabIndex = 105;
+            // 
+            // txtSearchTaiLieu
+            // 
+            this.txtSearchTaiLieu.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtSearchTaiLieu.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSearchTaiLieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearchTaiLieu.ForeColor = System.Drawing.Color.Black;
+            this.txtSearchTaiLieu.Location = new System.Drawing.Point(436, 19);
+            this.txtSearchTaiLieu.Name = "txtSearchTaiLieu";
+            this.txtSearchTaiLieu.Size = new System.Drawing.Size(205, 20);
+            this.txtSearchTaiLieu.TabIndex = 104;
+            // 
+            // btnYeuCauTL
+            // 
+            this.btnYeuCauTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
+            this.btnYeuCauTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnYeuCauTL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnYeuCauTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnYeuCauTL.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnYeuCauTL.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnYeuCauTL.Location = new System.Drawing.Point(731, 399);
+            this.btnYeuCauTL.Name = "btnYeuCauTL";
+            this.btnYeuCauTL.Size = new System.Drawing.Size(176, 41);
+            this.btnYeuCauTL.TabIndex = 103;
+            this.btnYeuCauTL.Text = "Yêu Cầu Tài Liệu Mới";
+            this.btnYeuCauTL.UseVisualStyleBackColor = false;
+            // 
+            // btnChinhSuaTL
+            // 
+            this.btnChinhSuaTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(139)))), ((int)(((byte)(25)))));
+            this.btnChinhSuaTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnChinhSuaTL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.btnChinhSuaTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChinhSuaTL.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChinhSuaTL.ForeColor = System.Drawing.Color.White;
+            this.btnChinhSuaTL.Location = new System.Drawing.Point(202, 398);
+            this.btnChinhSuaTL.Name = "btnChinhSuaTL";
+            this.btnChinhSuaTL.Size = new System.Drawing.Size(117, 43);
+            this.btnChinhSuaTL.TabIndex = 102;
+            this.btnChinhSuaTL.Text = "Chỉnh Sửa";
+            this.btnChinhSuaTL.UseVisualStyleBackColor = false;
+            // 
+            // btnHuyTL
+            // 
+            this.btnHuyTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(139)))), ((int)(((byte)(25)))));
+            this.btnHuyTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnHuyTL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.btnHuyTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHuyTL.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHuyTL.ForeColor = System.Drawing.Color.White;
+            this.btnHuyTL.Location = new System.Drawing.Point(664, 397);
+            this.btnHuyTL.Name = "btnHuyTL";
+            this.btnHuyTL.Size = new System.Drawing.Size(142, 44);
+            this.btnHuyTL.TabIndex = 101;
+            this.btnHuyTL.Text = "Hủy";
+            this.btnHuyTL.UseVisualStyleBackColor = false;
+            // 
+            // btnLuuTL
+            // 
+            this.btnLuuTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(139)))), ((int)(((byte)(25)))));
+            this.btnLuuTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnLuuTL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.btnLuuTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLuuTL.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuuTL.ForeColor = System.Drawing.Color.White;
+            this.btnLuuTL.Location = new System.Drawing.Point(447, 398);
+            this.btnLuuTL.Name = "btnLuuTL";
+            this.btnLuuTL.Size = new System.Drawing.Size(117, 43);
+            this.btnLuuTL.TabIndex = 100;
+            this.btnLuuTL.Text = "Lưu";
+            this.btnLuuTL.UseVisualStyleBackColor = false;
+            // 
+            // btnLapPhieuMuonTL
+            // 
+            this.btnLapPhieuMuonTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
+            this.btnLapPhieuMuonTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnLapPhieuMuonTL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnLapPhieuMuonTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLapPhieuMuonTL.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLapPhieuMuonTL.ForeColor = System.Drawing.Color.White;
+            this.btnLapPhieuMuonTL.Location = new System.Drawing.Point(515, 399);
+            this.btnLapPhieuMuonTL.Name = "btnLapPhieuMuonTL";
+            this.btnLapPhieuMuonTL.Size = new System.Drawing.Size(142, 41);
+            this.btnLapPhieuMuonTL.TabIndex = 99;
+            this.btnLapPhieuMuonTL.Text = "Lập Phiếu Mượn";
+            this.btnLapPhieuMuonTL.UseVisualStyleBackColor = false;
+            // 
+            // btnXoaTL
+            // 
+            this.btnXoaTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
+            this.btnXoaTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnXoaTL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnXoaTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXoaTL.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaTL.ForeColor = System.Drawing.Color.White;
+            this.btnXoaTL.Location = new System.Drawing.Point(291, 399);
+            this.btnXoaTL.Name = "btnXoaTL";
+            this.btnXoaTL.Size = new System.Drawing.Size(117, 41);
+            this.btnXoaTL.TabIndex = 98;
+            this.btnXoaTL.Text = "Xóa";
+            this.btnXoaTL.UseVisualStyleBackColor = false;
+            // 
+            // btnXemChiTietTL
+            // 
+            this.btnXemChiTietTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
+            this.btnXemChiTietTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnXemChiTietTL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnXemChiTietTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXemChiTietTL.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXemChiTietTL.ForeColor = System.Drawing.Color.White;
+            this.btnXemChiTietTL.Location = new System.Drawing.Point(79, 398);
+            this.btnXemChiTietTL.Name = "btnXemChiTietTL";
+            this.btnXemChiTietTL.Size = new System.Drawing.Size(117, 41);
+            this.btnXemChiTietTL.TabIndex = 97;
+            this.btnXemChiTietTL.Text = "Xem Chi Tiết";
+            this.btnXemChiTietTL.UseVisualStyleBackColor = false;
+            // 
             // cbbCTLoaiTL
             // 
             this.cbbCTLoaiTL.BackColor = System.Drawing.Color.Gainsboro;
@@ -420,8 +630,9 @@
             // 
             this.btnXemTheoLoai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(40)))), ((int)(((byte)(0)))));
             this.btnXemTheoLoai.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnXemTheoLoai.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnXemTheoLoai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXemTheoLoai.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXemTheoLoai.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemTheoLoai.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnXemTheoLoai.Location = new System.Drawing.Point(671, 69);
             this.btnXemTheoLoai.Name = "btnXemTheoLoai";
@@ -446,7 +657,7 @@
             this.btnXemAllTaiLieu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnXemAllTaiLieu.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnXemAllTaiLieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXemAllTaiLieu.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXemAllTaiLieu.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemAllTaiLieu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnXemAllTaiLieu.Location = new System.Drawing.Point(671, 22);
             this.btnXemAllTaiLieu.Name = "btnXemAllTaiLieu";
@@ -459,8 +670,9 @@
             // 
             this.btnSearchTaiLieu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.btnSearchTaiLieu.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnSearchTaiLieu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btnSearchTaiLieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearchTaiLieu.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearchTaiLieu.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchTaiLieu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSearchTaiLieu.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchTaiLieu.Image")));
             this.btnSearchTaiLieu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -478,17 +690,17 @@
             this.lblTenTaiLieu.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTenTaiLieu.Location = new System.Drawing.Point(329, 22);
             this.lblTenTaiLieu.Name = "lblTenTaiLieu";
-            this.lblTenTaiLieu.Size = new System.Drawing.Size(85, 19);
+            this.lblTenTaiLieu.Size = new System.Drawing.Size(92, 19);
             this.lblTenTaiLieu.TabIndex = 26;
-            this.lblTenTaiLieu.Text = "Tên Tài Liệu";
+            this.lblTenTaiLieu.Text = "Tên Tài Liệu :";
             // 
             // lblMaTaiLieu
             // 
             this.lblMaTaiLieu.AutoSize = true;
-            this.lblMaTaiLieu.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMaTaiLieu.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMaTaiLieu.Location = new System.Drawing.Point(327, 21);
             this.lblMaTaiLieu.Name = "lblMaTaiLieu";
-            this.lblMaTaiLieu.Size = new System.Drawing.Size(103, 21);
+            this.lblMaTaiLieu.Size = new System.Drawing.Size(90, 19);
             this.lblMaTaiLieu.TabIndex = 25;
             this.lblMaTaiLieu.Text = "Mã Tài Liệu :";
             // 
@@ -529,6 +741,7 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Gainsboro;
+            this.tabPage2.Controls.Add(this.groupBox2);
             this.tabPage2.Location = new System.Drawing.Point(4, 32);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -536,9 +749,156 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Thêm Tài Liệu";
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.ckbTLDB);
+            this.groupBox2.Controls.Add(this.btnThemTaiLieu);
+            this.groupBox2.Controls.Add(this.panel10);
+            this.groupBox2.Controls.Add(this.panel8);
+            this.groupBox2.Controls.Add(this.panel9);
+            this.groupBox2.Controls.Add(this.panel7);
+            this.groupBox2.Controls.Add(this.txtSoLuongTL);
+            this.groupBox2.Controls.Add(this.txtTenTL);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.txtLoaiTL);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.txtMaTL);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Location = new System.Drawing.Point(16, 18);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(955, 428);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.Black;
+            this.panel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel10.Location = new System.Drawing.Point(640, 165);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(205, 1);
+            this.panel10.TabIndex = 107;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Black;
+            this.panel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel8.Location = new System.Drawing.Point(195, 165);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(205, 1);
+            this.panel8.TabIndex = 107;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.Black;
+            this.panel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel9.Location = new System.Drawing.Point(640, 77);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(205, 1);
+            this.panel9.TabIndex = 107;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Black;
+            this.panel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel7.Location = new System.Drawing.Point(195, 77);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(205, 1);
+            this.panel7.TabIndex = 107;
+            // 
+            // txtSoLuongTL
+            // 
+            this.txtSoLuongTL.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtSoLuongTL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSoLuongTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoLuongTL.ForeColor = System.Drawing.Color.Black;
+            this.txtSoLuongTL.Location = new System.Drawing.Point(640, 141);
+            this.txtSoLuongTL.Name = "txtSoLuongTL";
+            this.txtSoLuongTL.Size = new System.Drawing.Size(205, 20);
+            this.txtSoLuongTL.TabIndex = 106;
+            // 
+            // txtTenTL
+            // 
+            this.txtTenTL.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtTenTL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTenTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenTL.ForeColor = System.Drawing.Color.Black;
+            this.txtTenTL.Location = new System.Drawing.Point(195, 141);
+            this.txtTenTL.Name = "txtTenTL";
+            this.txtTenTL.Size = new System.Drawing.Size(205, 20);
+            this.txtTenTL.TabIndex = 106;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(547, 142);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(84, 19);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Số Lượng :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(85, 142);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(103, 19);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Tên Tài Liệu :";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtLoaiTL
+            // 
+            this.txtLoaiTL.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtLoaiTL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtLoaiTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLoaiTL.ForeColor = System.Drawing.Color.Black;
+            this.txtLoaiTL.Location = new System.Drawing.Point(640, 53);
+            this.txtLoaiTL.Name = "txtLoaiTL";
+            this.txtLoaiTL.Size = new System.Drawing.Size(205, 20);
+            this.txtLoaiTL.TabIndex = 106;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(524, 54);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(109, 19);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Loại Tài Liệu :";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtMaTL
+            // 
+            this.txtMaTL.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtMaTL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMaTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaTL.ForeColor = System.Drawing.Color.Black;
+            this.txtMaTL.Location = new System.Drawing.Point(195, 53);
+            this.txtMaTL.Name = "txtMaTL";
+            this.txtMaTL.Size = new System.Drawing.Size(205, 20);
+            this.txtMaTL.TabIndex = 106;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(89, 54);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 19);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Mã Tài Liệu :";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Gainsboro;
+            this.tabPage3.Controls.Add(this.panel11);
+            this.tabPage3.Controls.Add(this.txtYeuCauTaiLieuMoi);
+            this.tabPage3.Controls.Add(this.lbTenTaiLieuYeuCauMoi);
+            this.tabPage3.Controls.Add(this.btnYeuCauTaiLieuMoi);
+            this.tabPage3.Controls.Add(this.btnXoaYeuCauTaiLieuMoi);
+            this.tabPage3.Controls.Add(this.dgvYeuCauTaiLieu);
             this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage3.Location = new System.Drawing.Point(4, 32);
             this.tabPage3.Name = "tabPage3";
@@ -547,183 +907,108 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Tài Liệu Yêu Cầu";
             // 
-            // btnYeuCauTL
+            // ckbTLDB
             // 
-            this.btnYeuCauTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
-            this.btnYeuCauTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnYeuCauTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnYeuCauTL.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnYeuCauTL.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnYeuCauTL.Location = new System.Drawing.Point(731, 399);
-            this.btnYeuCauTL.Name = "btnYeuCauTL";
-            this.btnYeuCauTL.Size = new System.Drawing.Size(176, 41);
-            this.btnYeuCauTL.TabIndex = 103;
-            this.btnYeuCauTL.Text = "Yêu Cầu Tài Liệu Mới";
-            this.btnYeuCauTL.UseVisualStyleBackColor = false;
+            this.ckbTLDB.AutoSize = true;
+            this.ckbTLDB.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbTLDB.Location = new System.Drawing.Point(196, 198);
+            this.ckbTLDB.Name = "ckbTLDB";
+            this.ckbTLDB.Size = new System.Drawing.Size(153, 21);
+            this.ckbTLDB.TabIndex = 109;
+            this.ckbTLDB.Text = "Là Tài Liệu Đặc Biệt";
+            this.ckbTLDB.UseVisualStyleBackColor = true;
             // 
-            // btnChinhSuaTL
+            // btnThemTaiLieu
             // 
-            this.btnChinhSuaTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(139)))), ((int)(((byte)(25)))));
-            this.btnChinhSuaTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnChinhSuaTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChinhSuaTL.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChinhSuaTL.ForeColor = System.Drawing.Color.White;
-            this.btnChinhSuaTL.Location = new System.Drawing.Point(202, 398);
-            this.btnChinhSuaTL.Name = "btnChinhSuaTL";
-            this.btnChinhSuaTL.Size = new System.Drawing.Size(117, 43);
-            this.btnChinhSuaTL.TabIndex = 102;
-            this.btnChinhSuaTL.Text = "Chỉnh Sửa";
-            this.btnChinhSuaTL.UseVisualStyleBackColor = false;
+            this.btnThemTaiLieu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(99)))), ((int)(((byte)(25)))));
+            this.btnThemTaiLieu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnThemTaiLieu.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnThemTaiLieu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnThemTaiLieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThemTaiLieu.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemTaiLieu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnThemTaiLieu.Location = new System.Drawing.Point(378, 278);
+            this.btnThemTaiLieu.Name = "btnThemTaiLieu";
+            this.btnThemTaiLieu.Size = new System.Drawing.Size(157, 38);
+            this.btnThemTaiLieu.TabIndex = 108;
+            this.btnThemTaiLieu.Text = "Thêm";
+            this.btnThemTaiLieu.UseVisualStyleBackColor = false;
             // 
-            // btnHuyTL
+            // dgvYeuCauTaiLieu
             // 
-            this.btnHuyTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(139)))), ((int)(((byte)(25)))));
-            this.btnHuyTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnHuyTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHuyTL.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHuyTL.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnHuyTL.Location = new System.Drawing.Point(664, 397);
-            this.btnHuyTL.Name = "btnHuyTL";
-            this.btnHuyTL.Size = new System.Drawing.Size(142, 44);
-            this.btnHuyTL.TabIndex = 101;
-            this.btnHuyTL.Text = "Hủy";
-            this.btnHuyTL.UseVisualStyleBackColor = false;
+            this.dgvYeuCauTaiLieu.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dgvYeuCauTaiLieu.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvYeuCauTaiLieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvYeuCauTaiLieu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvYeuCauTaiLieu.Location = new System.Drawing.Point(3, 3);
+            this.dgvYeuCauTaiLieu.Name = "dgvYeuCauTaiLieu";
+            this.dgvYeuCauTaiLieu.Size = new System.Drawing.Size(981, 371);
+            this.dgvYeuCauTaiLieu.TabIndex = 0;
             // 
-            // btnLuuTL
+            // lbTenTaiLieuYeuCauMoi
             // 
-            this.btnLuuTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(139)))), ((int)(((byte)(25)))));
-            this.btnLuuTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnLuuTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLuuTL.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLuuTL.ForeColor = System.Drawing.Color.White;
-            this.btnLuuTL.Location = new System.Drawing.Point(447, 398);
-            this.btnLuuTL.Name = "btnLuuTL";
-            this.btnLuuTL.Size = new System.Drawing.Size(117, 43);
-            this.btnLuuTL.TabIndex = 100;
-            this.btnLuuTL.Text = "Lưu";
-            this.btnLuuTL.UseVisualStyleBackColor = false;
+            this.lbTenTaiLieuYeuCauMoi.AutoSize = true;
+            this.lbTenTaiLieuYeuCauMoi.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTenTaiLieuYeuCauMoi.Location = new System.Drawing.Point(75, 414);
+            this.lbTenTaiLieuYeuCauMoi.Name = "lbTenTaiLieuYeuCauMoi";
+            this.lbTenTaiLieuYeuCauMoi.Size = new System.Drawing.Size(77, 19);
+            this.lbTenTaiLieuYeuCauMoi.TabIndex = 45;
+            this.lbTenTaiLieuYeuCauMoi.Text = "Nhập Tên :";
+            this.lbTenTaiLieuYeuCauMoi.Visible = false;
             // 
-            // btnLapPhieuMuonTL
+            // btnYeuCauTaiLieuMoi
             // 
-            this.btnLapPhieuMuonTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
-            this.btnLapPhieuMuonTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnLapPhieuMuonTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLapPhieuMuonTL.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLapPhieuMuonTL.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnLapPhieuMuonTL.Location = new System.Drawing.Point(515, 399);
-            this.btnLapPhieuMuonTL.Name = "btnLapPhieuMuonTL";
-            this.btnLapPhieuMuonTL.Size = new System.Drawing.Size(142, 41);
-            this.btnLapPhieuMuonTL.TabIndex = 99;
-            this.btnLapPhieuMuonTL.Text = "Lập Phiếu Mượn";
-            this.btnLapPhieuMuonTL.UseVisualStyleBackColor = false;
+            this.btnYeuCauTaiLieuMoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(99)))), ((int)(((byte)(25)))));
+            this.btnYeuCauTaiLieuMoi.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnYeuCauTaiLieuMoi.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnYeuCauTaiLieuMoi.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnYeuCauTaiLieuMoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnYeuCauTaiLieuMoi.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnYeuCauTaiLieuMoi.ForeColor = System.Drawing.Color.White;
+            this.btnYeuCauTaiLieuMoi.Location = new System.Drawing.Point(405, 398);
+            this.btnYeuCauTaiLieuMoi.Name = "btnYeuCauTaiLieuMoi";
+            this.btnYeuCauTaiLieuMoi.Size = new System.Drawing.Size(170, 41);
+            this.btnYeuCauTaiLieuMoi.TabIndex = 43;
+            this.btnYeuCauTaiLieuMoi.Text = "Yêu Cầu Tài Liệu Mới ";
+            this.btnYeuCauTaiLieuMoi.UseVisualStyleBackColor = false;
             // 
-            // btnXoaTL
+            // btnXoaYeuCauTaiLieuMoi
             // 
-            this.btnXoaTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
-            this.btnXoaTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnXoaTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXoaTL.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoaTL.ForeColor = System.Drawing.Color.White;
-            this.btnXoaTL.Location = new System.Drawing.Point(291, 399);
-            this.btnXoaTL.Name = "btnXoaTL";
-            this.btnXoaTL.Size = new System.Drawing.Size(117, 41);
-            this.btnXoaTL.TabIndex = 98;
-            this.btnXoaTL.Text = "Xóa";
-            this.btnXoaTL.UseVisualStyleBackColor = false;
+            this.btnXoaYeuCauTaiLieuMoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(40)))), ((int)(((byte)(0)))));
+            this.btnXoaYeuCauTaiLieuMoi.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnXoaYeuCauTaiLieuMoi.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnXoaYeuCauTaiLieuMoi.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnXoaYeuCauTaiLieuMoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXoaYeuCauTaiLieuMoi.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaYeuCauTaiLieuMoi.ForeColor = System.Drawing.Color.White;
+            this.btnXoaYeuCauTaiLieuMoi.Image = ((System.Drawing.Image)(resources.GetObject("btnXoaYeuCauTaiLieuMoi.Image")));
+            this.btnXoaYeuCauTaiLieuMoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXoaYeuCauTaiLieuMoi.Location = new System.Drawing.Point(710, 398);
+            this.btnXoaYeuCauTaiLieuMoi.Name = "btnXoaYeuCauTaiLieuMoi";
+            this.btnXoaYeuCauTaiLieuMoi.Size = new System.Drawing.Size(117, 41);
+            this.btnXoaYeuCauTaiLieuMoi.TabIndex = 42;
+            this.btnXoaYeuCauTaiLieuMoi.Text = "Xóa";
+            this.btnXoaYeuCauTaiLieuMoi.UseVisualStyleBackColor = false;
             // 
-            // btnXemChiTietTL
+            // panel11
             // 
-            this.btnXemChiTietTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
-            this.btnXemChiTietTL.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnXemChiTietTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXemChiTietTL.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXemChiTietTL.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnXemChiTietTL.Location = new System.Drawing.Point(79, 398);
-            this.btnXemChiTietTL.Name = "btnXemChiTietTL";
-            this.btnXemChiTietTL.Size = new System.Drawing.Size(117, 41);
-            this.btnXemChiTietTL.TabIndex = 97;
-            this.btnXemChiTietTL.Text = "Xem Chi Tiết";
-            this.btnXemChiTietTL.UseVisualStyleBackColor = false;
+            this.panel11.BackColor = System.Drawing.Color.Black;
+            this.panel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel11.Location = new System.Drawing.Point(167, 434);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(205, 1);
+            this.panel11.TabIndex = 107;
             // 
-            // panel5
+            // txtYeuCauTaiLieuMoi
             // 
-            this.panel5.BackColor = System.Drawing.Color.Black;
-            this.panel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.panel5.Location = new System.Drawing.Point(436, 43);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(205, 1);
-            this.panel5.TabIndex = 105;
-            // 
-            // txtSearchTaiLieu
-            // 
-            this.txtSearchTaiLieu.BackColor = System.Drawing.Color.Gainsboro;
-            this.txtSearchTaiLieu.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSearchTaiLieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchTaiLieu.ForeColor = System.Drawing.Color.White;
-            this.txtSearchTaiLieu.Location = new System.Drawing.Point(436, 19);
-            this.txtSearchTaiLieu.Name = "txtSearchTaiLieu";
-            this.txtSearchTaiLieu.Size = new System.Drawing.Size(205, 20);
-            this.txtSearchTaiLieu.TabIndex = 104;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Black;
-            this.panel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.panel3.Location = new System.Drawing.Point(169, 243);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(284, 1);
-            this.panel3.TabIndex = 107;
-            // 
-            // txtCTTenTaiLieu
-            // 
-            this.txtCTTenTaiLieu.BackColor = System.Drawing.Color.Gainsboro;
-            this.txtCTTenTaiLieu.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCTTenTaiLieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCTTenTaiLieu.ForeColor = System.Drawing.Color.White;
-            this.txtCTTenTaiLieu.Location = new System.Drawing.Point(169, 219);
-            this.txtCTTenTaiLieu.Name = "txtCTTenTaiLieu";
-            this.txtCTTenTaiLieu.Size = new System.Drawing.Size(284, 20);
-            this.txtCTTenTaiLieu.TabIndex = 106;
-            // 
-            // txtCTMaTaiLieu
-            // 
-            this.txtCTMaTaiLieu.BackColor = System.Drawing.Color.Gainsboro;
-            this.txtCTMaTaiLieu.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCTMaTaiLieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCTMaTaiLieu.ForeColor = System.Drawing.Color.White;
-            this.txtCTMaTaiLieu.Location = new System.Drawing.Point(169, 166);
-            this.txtCTMaTaiLieu.Name = "txtCTMaTaiLieu";
-            this.txtCTMaTaiLieu.Size = new System.Drawing.Size(284, 20);
-            this.txtCTMaTaiLieu.TabIndex = 106;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Black;
-            this.panel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.panel4.Location = new System.Drawing.Point(169, 190);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(284, 1);
-            this.panel4.TabIndex = 107;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.Black;
-            this.panel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.panel6.Location = new System.Drawing.Point(640, 244);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(235, 1);
-            this.panel6.TabIndex = 109;
-            // 
-            // txtCTSoLuongTL
-            // 
-            this.txtCTSoLuongTL.BackColor = System.Drawing.Color.Gainsboro;
-            this.txtCTSoLuongTL.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCTSoLuongTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCTSoLuongTL.ForeColor = System.Drawing.Color.White;
-            this.txtCTSoLuongTL.Location = new System.Drawing.Point(640, 220);
-            this.txtCTSoLuongTL.Name = "txtCTSoLuongTL";
-            this.txtCTSoLuongTL.Size = new System.Drawing.Size(235, 20);
-            this.txtCTSoLuongTL.TabIndex = 108;
+            this.txtYeuCauTaiLieuMoi.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtYeuCauTaiLieuMoi.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtYeuCauTaiLieuMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtYeuCauTaiLieuMoi.ForeColor = System.Drawing.Color.Black;
+            this.txtYeuCauTaiLieuMoi.Location = new System.Drawing.Point(167, 410);
+            this.txtYeuCauTaiLieuMoi.Name = "txtYeuCauTaiLieuMoi";
+            this.txtYeuCauTaiLieuMoi.Size = new System.Drawing.Size(205, 20);
+            this.txtYeuCauTaiLieuMoi.TabIndex = 106;
             // 
             // GUI_Home
             // 
@@ -750,6 +1035,12 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSearchTaiLieu)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvYeuCauTaiLieu)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -805,5 +1096,26 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox txtCTMaTaiLieu;
         private System.Windows.Forms.TextBox txtCTTenTaiLieu;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.TextBox txtSoLuongTL;
+        private System.Windows.Forms.TextBox txtTenTL;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtLoaiTL;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtMaTL;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox ckbTLDB;
+        private System.Windows.Forms.Button btnThemTaiLieu;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.TextBox txtYeuCauTaiLieuMoi;
+        private System.Windows.Forms.Label lbTenTaiLieuYeuCauMoi;
+        private System.Windows.Forms.Button btnYeuCauTaiLieuMoi;
+        private System.Windows.Forms.Button btnXoaYeuCauTaiLieuMoi;
+        private System.Windows.Forms.DataGridView dgvYeuCauTaiLieu;
     }
 }
