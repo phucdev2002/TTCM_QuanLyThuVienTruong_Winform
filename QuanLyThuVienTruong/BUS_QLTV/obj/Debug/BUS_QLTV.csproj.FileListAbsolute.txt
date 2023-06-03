@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\BUS_QLTV\bin\Debug\BUS_QLTV.dll
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\BUS_QLTV\bin\Debug\BUS_QLTV.pdb
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\BUS_QLTV\bin\Debug\DAL_QLTV.dll
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\BUS_QLTV\bin\Debug\DTO_QLTV.dll
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\BUS_QLTV\bin\Debug\DAL_QLTV.pdb
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\BUS_QLTV\bin\Debug\DTO_QLTV.pdb
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\BUS_QLTV\obj\Debug\BUS_QLTV.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\BUS_QLTV\obj\Debug\BUS_QLTV.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\BUS_QLTV\obj\Debug\BUS_QLTV.csproj.CopyComplete
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\BUS_QLTV\obj\Debug\BUS_QLTV.dll
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\BUS_QLTV\obj\Debug\BUS_QLTV.pdb

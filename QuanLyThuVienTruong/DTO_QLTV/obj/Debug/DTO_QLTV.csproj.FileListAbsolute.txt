@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DTO_QLTV\bin\Debug\DTO_QLTV.dll
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DTO_QLTV\bin\Debug\DTO_QLTV.pdb
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DTO_QLTV\obj\Debug\DTO_QLTV.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DTO_QLTV\obj\Debug\DTO_QLTV.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DTO_QLTV\obj\Debug\DTO_QLTV.dll
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DTO_QLTV\obj\Debug\DTO_QLTV.pdb

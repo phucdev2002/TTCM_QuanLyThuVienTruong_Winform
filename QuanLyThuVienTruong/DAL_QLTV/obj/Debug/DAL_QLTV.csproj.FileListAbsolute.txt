@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DAL_QLTV\bin\Debug\DAL_QLTV.dll
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DAL_QLTV\bin\Debug\DAL_QLTV.pdb
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DAL_QLTV\bin\Debug\DTO_QLTV.dll
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DAL_QLTV\bin\Debug\DTO_QLTV.pdb
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DAL_QLTV\obj\Debug\DAL_QLTV.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DAL_QLTV\obj\Debug\DAL_QLTV.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DAL_QLTV\obj\Debug\DAL_QLTV.csproj.CopyComplete
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DAL_QLTV\obj\Debug\DAL_QLTV.dll
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\DAL_QLTV\obj\Debug\DAL_QLTV.pdb
