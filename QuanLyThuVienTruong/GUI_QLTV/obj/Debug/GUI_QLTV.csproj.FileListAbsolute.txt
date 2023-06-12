@@ -16,3 +16,5 @@ C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\GUI_QLTV\bin\Debug
 C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\GUI_QLTV\obj\Debug\GUI_QLTV.csproj.CopyComplete
 C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\GUI_QLTV\obj\Debug\GUI_QLTV.GUI_Register.resources
 C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\GUI_QLTV\obj\Debug\GUI_QLTV.GUI_Home.resources
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\GUI_QLTV\bin\Debug\DAL_QLTV.dll
+C:\Users\User\Desktop\QuanLyThuVien Final\QuanLyThuVienTruong\GUI_QLTV\bin\Debug\DAL_QLTV.pdb

@@ -767,7 +767,7 @@ VALUES
 (   N'NV001',  -- MaNV - nchar(10)
     1, -- CaTruc - int
     N'admin', -- TenDangNhap - nchar(10)
-    N'e10adc3949ba59abbe56e057f20f883e', -- MatKhau - nchar(200)
+    N'123456', -- MatKhau - nchar(200)
     N'Nguyễn Phúc', -- HoTen - nvarchar(50)
     '2023-05-30', -- LoginGanNhat - date
     N'AD'  -- LoaiNV - nchar(10)
@@ -791,6 +791,26 @@ VALUES
     N'Nguyễn Minh Phong', -- HoTen - nvarchar(50)
     '2023-06-06', -- LoginGanNhat - date
     N'TT'  -- LoaiNV - nchar(10)
+    )
+
+INSERT dbo.NhanVien
+(
+    MaNV,
+    CaTruc,
+    TenDangNhap,
+    MatKhau,
+    HoTen,
+    LoginGanNhat,
+    LoaiNV
+)
+VALUES
+(   N'NV003',  -- MaNV - nchar(10)
+    2, -- CaTruc - int
+    N'phi', -- TenDangNhap - nchar(10)
+    N'123456789', -- MatKhau - nchar(200)
+    N'Nguyễn Văn Thi', -- HoTen - nvarchar(50)
+    '2023-06-12', -- LoginGanNhat - date
+    N'AD'  -- LoaiNV - nchar(10)
     )
 
 				-- Nhập dữ liệu bảng Loại Nhân Viên
@@ -1515,3 +1535,61 @@ ALTER TABLE dbo.PhieuTra WITH CHECK ADD CONSTRAINT FK_PhieuTra_NhanVien FOREIGN 
 GO
 ALTER TABLE dbo.PhieuTra CHECK CONSTRAINT FK_PhieuTra_NhanVien
 GO
+
+
+				--Truy vấn
+
+CREATE PROC dbo.usp_Login @username NCHAR(40), @password NCHAR(40), @result INT OUT
+AS
+BEGIN
+	IF EXISTS(SELECT* FROM dbo.NhanVien WHERE TenDangNhap = @username AND MatKhau = @password)
+	BEGIN
+		SET @result = 1;
+		UPDATE dbo.NhanVien
+		SET LoginGanNhat = GETDATE()
+		WHERE TenDangNhap = @username AND MatKhau = @password
+	END
+END
+GO
+
+CREATE PROC dbo.usp_LayTenNhanVien @UserName NCHAR(40), @Pass NCHAR(200), @TenNV NVARCHAR(100) OUT
+AS
+BEGIN
+	SELECT @TenNV = nv.HoTen
+	FROM dbo.NhanVien nv
+	WHERE nv.TenDangNhap = @UserName AND nv.MatKhau = @Pass
+END
+GO
+
+CREATE PROC dbo.usp_LapQuyenNhanVien @UserName NCHAR(40), @Pass NCHAR(200), @QuyenNV NVARCHAR(100) OUT
+AS
+BEGIN
+	SELECT @QuyenNV = loai.TenLoaiNV
+	FROM dbo.NhanVien nv 
+	INNER JOIN dbo.LoaiNhanVien loai ON loai.MaLoaiNV = nv.LoaiNV
+	WHERE nv.TenDangNhap = @UserName AND nv.MatKhau = @Pass
+END
+
+
+
+CREATE PROC dbo.usp_TimMaNVTiepTheo @MaNV VARCHAR(10) OUT
+AS
+BEGIN
+	DECLARE @MaNhanVien NCHAR(10) = 'NV001' 
+	DECLARE @idx INT
+	SET @idx = 1
+	WHILE EXISTS (SELECT nv.MaNV FROM dbo.NhanVien nv  WHERE nv.MaNV = @MaNhanVien)
+	BEGIN
+		SET @idx = @idx + 1
+		SET @MaNhanVien = 'NV' + REPLICATE('0', 4 - LEN(CAST(@idx AS VARCHAR))) + CAST(@idx AS VARCHAR)
+	END
+	SET @MaNV = @MaNhanVien
+END
+
+
+CREATE PROC dbo.usp_ThemNhanVien @CaTruc NVARCHAR(40), @TenDangNhap NVARCHAR(20), @HoTen NVARCHAR(100), @MatKhau NCHAR(200), @LoaiNV NVARCHAR(20), @result INT OUT
+AS
+BEGIN
+	DECLARE @MaNV NCHAR(10)
+	EXEC usp_TimMaNVTiepTheo @MaNV OUT 
+	IF NOT EXISTS(SELECT* FROM dbo.NhanVien nv WHERE nv.TenDangNhap = @
